@@ -1,3 +1,11 @@
+### Mutibo Capstone Project
+
+There are 2 parts to the Capstone: 
+1. The server side Spring application 
+2. The Android client application
+
+This repo is for the Android clent application.
+
 ## Warning
 
 UNDER NO CIRCUMSTANCES SHOULD YOU USE THE INCLUDED NON-VALIDATION HTTP CLIENT IN A PRODUCTION APP!!!
