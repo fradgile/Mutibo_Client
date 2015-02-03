@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/db1_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textExplanationTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Put Explanation Here"
+        android:layout_weight="0"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+            android:id="@+id/textTitle1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title1"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+	<TextView
+            android:id="@+id/textTitle2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title2"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    <TextView
+            android:id="@+id/textTitle3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="title3"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        
+    <TextView
+            android:id="@+id/textOddTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="oddTitle"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<TextView
+            android:id="@+id/textexplanation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Explanation"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="0dip"
+	    android:layout_weight="1"
+	    android:gravity="center|bottom"
+	    android:orientation="horizontal" >
+
+		<ImageButton
+            android:id="@+id/buttonUp"
+            style="?android:attr/buttonStyleSmall"
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+	        android:contentDescription="thumbs up"
+	        android:src="@drawable/thumbs_up" />	    
+	    
+	    <ImageButton
+	        android:id="@+id/buttonDown"
+	        style="?android:attr/buttonStyleSmall"
+	        android:layout_width="50dp"
+	        android:layout_height="wrap_content"
+	        android:layout_gravity="center_horizontal|bottom"
+	        android:contentDescription="thumbs down"
+	        android:src="@drawable/thumbs_down" />
+	</LinearLayout>
+
+ <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/str_next_question" />
+</LinearLayout>

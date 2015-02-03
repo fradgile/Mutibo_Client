@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MutiboClient</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="userName">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="server">Server IP or Hostname</string>
+    <string name="localhost">https://192.168.1.7:8443</string>
+    <string name="title_activity_quizset_list">QuizListActivity</string>
+    <string name="menu_settings">Settings</string>
+    <string name="str_next">Next</string>
+    <string name="str_next_question">Next Question</string>    
+    <string name="str_answer">Answer</string>    
+    <string name="str_game_over">Game Over</string>
+    <string name="str_play_game">Play Again</string>
+    <string name="Answer"></string>    
+</resources>
